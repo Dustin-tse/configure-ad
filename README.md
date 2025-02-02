@@ -43,7 +43,7 @@ For this project, similar to the osTicket project, I used Microsoft Azure to cre
 
 <h2>2. Deploying Active Directory</h2>
 <p>
-<img src="https://i.imgur.com/ojo4GUs.png" height="50%" width="50%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/2pfhuEd.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ojo4GUs.png" height="45%" width="45%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/2pfhuEd.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/Pe2DBil.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
