@@ -25,8 +25,7 @@ This project outlines the implementation of on-premises Active Directory within 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Preparing Active Directory Infrastrcture in Azure
-- Deploying Active Directory
-- Creating Users with Powershell
+- Deploying Active Directory & Creating users with powershell
 - Group policies and Managing accounts
 
 <h2>Deployment and Configuration Steps</h2>
@@ -41,7 +40,7 @@ For this project, similar to the osTicket project, I used Microsoft Azure to cre
 </p>
 <br />
 
-<h2>2. Deploying Active Directory</h2>
+<h2>2.  Deploying Active Directory & Creating users with powershell</h2>
 <p>
 <img src="https://i.imgur.com/ojo4GUs.png" height="45%" width="45%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/2pfhuEd.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/Pe2DBil.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
@@ -51,16 +50,7 @@ Dc-1 is promoted to a domain controller with a new forest. New OUs(organizationa
 </p>
 <br />
 
-<h2>3. Creating Users with Powershell</h2>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<h2>4. Group policies and Managing accounts</h2>
+<h2>3. Group policies and Managing accounts</h2>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
