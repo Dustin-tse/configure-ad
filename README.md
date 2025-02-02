@@ -3,7 +3,7 @@
 </p>
 
 <h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+This project outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
 
 
 <h2>Video Demonstration</h2>
@@ -31,6 +31,17 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Deployment and Configuration Steps</h2>
 
+<h2>1. Preparing Active Directory Infrastrcture in Azure</h2>
+<p>
+<img src="https://i.imgur.com/l4ASQyo.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VFAiVL2.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+For this project, similar to the osTicket project, I used Microsoft Azure to create a resource group and vnet, however this time I created two virtual machines, one of them will act as a domain controller and named "dc-1" I then disable firewall so that traffic between the vms is not disrupted. The second vm will be a normal windows 10 computer in the smae region as the domain controller. I test the connection using powershell to ping the domain controller to make sure everything is prepared for further testing.
+</p>
+<br />
+
+<h2>2. Deploying Active Directory</h2>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -39,6 +50,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </p>
 <br />
 
+<h2>3. Creating Users with Powershell</h2>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -47,6 +59,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </p>
 <br />
 
+<h2>4. Group policies and Managing accounts</h2>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
