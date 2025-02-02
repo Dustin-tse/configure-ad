@@ -56,6 +56,6 @@ Dc-1 is promoted to a domain controller with a new forest. New OUs(organizationa
 <img src="https://i.imgur.com/ooIf62h.png" height="30%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The final part of this project works with group policies. It opbserves login behaviour, how different group policies can be adjusted like how many times someone is allowed to get a password wrong before they are locked out for example. Also, I was able to observe how an admin can unlock or lock accounts from their end or take other measures like resetting the users password.
 </p>
 <br />
