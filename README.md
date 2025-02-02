@@ -47,7 +47,7 @@ For this project, similar to the osTicket project, I used Microsoft Azure to cre
 <img src="https://i.imgur.com/Pe2DBil.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Dc-1 is promoted to a domain controller with a new forest. New OUs(organizational units) are created for employees and admins. Client 1 is joined to the domain. To simulate a large organization of users, a script is used to create 10000 new users taht are all given permission to log into the windows virtual machine.
 </p>
 <br />
 
